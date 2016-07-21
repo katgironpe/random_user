@@ -2,7 +2,9 @@
 
 ## Features
 
-- [x] Return an authorized user
+- [x] Return one random user
+- [ ] Return multiple random users
+- [ ] Choose gender, nationality and other options
 
 ## Installation
 
