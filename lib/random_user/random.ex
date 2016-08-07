@@ -10,6 +10,6 @@ defmodule RandomUser.Random do
   """
 
   def one do
-    API.get("api/")
+    API.get(RandomUser.config(:one_random_user_api_url))
   end
 end

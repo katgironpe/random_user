@@ -2,7 +2,7 @@ defmodule RandomUser.API do
   use HTTPotion.Base
 
   def process_url(url) do
-    "https://randomuser.me/" <> url
+    url
   end
 
   def process_response_body(body) do
