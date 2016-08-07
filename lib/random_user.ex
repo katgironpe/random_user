@@ -6,6 +6,7 @@ defmodule RandomUser do
 
   - `RandomUser.API`
   - `RandomUser.Random`
+  - `RandomUser.Parser`
   """
 
   def config(key) do

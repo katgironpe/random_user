@@ -6,11 +6,12 @@ defmodule RandomUser.Random do
 
   ## Examples
 
-  iex> RandomUser.Random.one
+       iex> RandomUser.Random.one
   """
 
   def one do
-    API.get(RandomUser.config(:one_random_user_api_url))
+    url = RandomUser.config(:one_random_user_api_url) |> to_string
+    API.get(url)
   end
 
   @doc """
@@ -18,7 +19,7 @@ defmodule RandomUser.Random do
 
   ## Examples
 
-  iex> RandomUser.Random.multiple(50)
+      iex> RandomUser.Random.multiple(50)
   """
 
   def multiple(n) do

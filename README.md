@@ -15,7 +15,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 
     ```elixir
     def deps do
-      [{:random_user, "~> 0.1.1"}]
+      [{:random_user, "~> 0.1.2"}]
     end
     ```
 
