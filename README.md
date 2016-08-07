@@ -3,8 +3,9 @@
 ## Features
 
 - [x] Return one random user
-- [ ] Return multiple random users
+- [x] Return multiple random users
 - [ ] Choose gender, nationality and other options
+- [ ] Format results
 
 ## Installation
 
@@ -14,7 +15,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 
     ```elixir
     def deps do
-      [{:random_user, "~> 0.1.0"}]
+      [{:random_user, "~> 0.1.1"}]
     end
     ```
 
