@@ -1,4 +1,4 @@
-# RandomUser
+# RandomUser [![Build Status](https://travis-ci.org/katgironpe/random_user.svg?branch=master)](https://travis-ci.org/katgironpe/random_user)
 
 ## Features
 
