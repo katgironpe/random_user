@@ -6,7 +6,7 @@ defmodule RandomUser.Random do
 
   ## Examples
 
-       iex> RandomUser.Random.one
+      RandomUser.Random.one
   """
 
   def one do
@@ -19,7 +19,7 @@ defmodule RandomUser.Random do
 
   ## Examples
 
-      iex> RandomUser.Random.multiple(50)
+      RandomUser.Random.multiple(50)
   """
 
   def multiple(n) do
