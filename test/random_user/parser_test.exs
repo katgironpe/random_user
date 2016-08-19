@@ -7,7 +7,6 @@ defmodule RandomUser.ParserTest do
 
       assert RandomUser.Parser.parse(results) == %{one: "one", two: "two"}
     end
-
   end
 
   doctest RandomUser.Parser
