@@ -4,8 +4,8 @@
 
 - [x] Return one random user
 - [x] Return multiple random users
-- [ ] Choose gender, nationality and other options
-- [ ] Format results
+- [x] Choose gender, nationality and other options
+- [x] Format results
 
 ## Installation
 
