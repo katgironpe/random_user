@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://randomuser.me/api/?gender=female"
+    },
+    "response": {
+      "body": "{\"results\":[{\"gender\":\"female\",\"name\":{\"title\":\"miss\",\"first\":\"isabel\",\"last\":\"castro\"},\"location\":{\"street\":\"6499 calle de arturo soria\",\"city\":\"vitoria\",\"state\":\"comunidad de madrid\",\"postcode\":73690},\"email\":\"isabel.castro@example.com\",\"login\":{\"username\":\"whitemouse910\",\"password\":\"aloha\",\"salt\":\"lG6eRJrn\",\"md5\":\"ef3af8f4ea55d8b17c79eabb484a926d\",\"sha1\":\"94a88050a1073ad75cc2875c702b8d34079c7bf3\",\"sha256\":\"86d8392b7be413f820ff918429142f0b3d6644a7ff3a59e8630e1abdfbda63bf\"},\"dob\":\"1958-07-11 08:01:08\",\"registered\":\"2003-09-16 04:47:38\",\"phone\":\"943-131-605\",\"cell\":\"610-342-763\",\"id\":{\"name\":\"DNI\",\"value\":\"99757145-J\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/women/75.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/women/75.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/women/75.jpg\"},\"nat\":\"ES\"}],\"info\":{\"seed\":\"2ffea33ca647c83a\",\"results\":1,\"page\":1,\"version\":\"1.1\"}}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Sat, 20 Aug 2016 16:31:47 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "916",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "no-cache",
+        "ETag": "W/\"394-ZZvIHMyJdw6R3B7xQjgezA\"",
+        "Vary": "Accept-Encoding",
+        "Strict-Transport-Security": "max-age=31536000;"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

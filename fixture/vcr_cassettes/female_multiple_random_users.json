@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "http://api.randomuser.me/?results=2&gender=female"
+    },
+    "response": {
+      "body": "{\"results\":[{\"gender\":\"female\",\"name\":{\"title\":\"miss\",\"first\":\"amalie\",\"last\":\"johansen\"},\"location\":{\"street\":\"5982 ringstedgade\",\"city\":\"viby j.\",\"state\":\"midtjylland\",\"postcode\":56319},\"email\":\"amalie.johansen@example.com\",\"login\":{\"username\":\"whitekoala425\",\"password\":\"natasha\",\"salt\":\"BeOafWH0\",\"md5\":\"d3391f5cfdb5120dcfb0bd93af98f685\",\"sha1\":\"8d3f8a117099918c1f0c2a39ec3c5ff37504b226\",\"sha256\":\"f830f4398d23c130a5514fab761f4ad01bf5f7d47356108b83adc3e964c87174\"},\"dob\":\"1947-10-25 10:48:35\",\"registered\":\"2005-11-12 07:45:55\",\"phone\":\"33058999\",\"cell\":\"21337283\",\"id\":{\"name\":\"CPR\",\"value\":\"142956-0953\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/women/60.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/women/60.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/women/60.jpg\"},\"nat\":\"DK\"},{\"gender\":\"female\",\"name\":{\"title\":\"mrs\",\"first\":\"eva\",\"last\":\"bÃ©langer\"},\"location\":{\"street\":\"5954 victoria ave\",\"city\":\"deer lake\",\"state\":\"new brunswick\",\"postcode\":51281},\"email\":\"eva.bÃ©langer@example.com\",\"login\":{\"username\":\"orangemouse369\",\"password\":\"termite\",\"salt\":\"OoKO0Etu\",\"md5\":\"b457a812feea254b05b900f824daea2a\",\"sha1\":\"13e3f938c60a395b41541f4d9cdb22bdc799d29c\",\"sha256\":\"1dd95e7202b9afa14b9af2c3787ee08dd49619137b2a02065004ec1aed698288\"},\"dob\":\"1991-11-18 07:02:54\",\"registered\":\"2005-07-05 15:25:38\",\"phone\":\"522-772-2932\",\"cell\":\"578-901-3395\",\"id\":{\"name\":\"\",\"value\":null},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/women/68.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/women/68.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/women/68.jpg\"},\"nat\":\"CA\"}],\"info\":{\"seed\":\"3b74b535245c9f82\",\"results\":2,\"page\":1,\"version\":\"1.1\"}}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Sat, 20 Aug 2016 16:24:27 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "1711",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "no-cache",
+        "ETag": "W/\"6af-6Y1RQTpFlbejAttLZBS02g\"",
+        "Vary": "Accept-Encoding"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
