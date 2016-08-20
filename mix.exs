@@ -41,6 +41,7 @@ defmodule RandomUser.Mixfile do
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:excoveralls, "~> 0.4", only: :test},
       {:exvcr, "~> 0.6", only: :test},
+      {:inch_ex, "~> 0.5", only: :docs},
       {:meck, "~> 0.8.2", only: [:dev, :test]}
     ]
   end
