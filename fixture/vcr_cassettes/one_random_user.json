@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://randomuser.me/api/"
+    },
+    "response": {
+      "body": "{\"results\":[{\"gender\":\"female\",\"name\":{\"title\":\"miss\",\"first\":\"vera\",\"last\":\"voÃ\"},\"location\":{\"street\":\"3350 tannenweg\",\"city\":\"main-spessart\",\"state\":\"brandenburg\",\"postcode\":20797},\"email\":\"vera.voÃ@example.com\",\"login\":{\"username\":\"brownfish572\",\"password\":\"zxczxc\",\"salt\":\"MYDA4dnd\",\"md5\":\"ae0f5defb1fac842b282c59f17f99a4e\",\"sha1\":\"3f820dbdd7271f58f19d5979121851f9341c7590\",\"sha256\":\"95fcf71ea9058b46ef76d16881f4b4783ec8a757c739bda0110e8da19f4c8e83\"},\"dob\":\"1955-11-05 18:29:07\",\"registered\":\"2004-07-26 18:14:42\",\"phone\":\"0681-5674632\",\"cell\":\"0175-9372149\",\"id\":{\"name\":\"\",\"value\":null},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/women/88.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/women/88.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/women/88.jpg\"},\"nat\":\"DE\"}],\"info\":{\"seed\":\"55c4099360d64e97\",\"results\":1,\"page\":1,\"version\":\"1.1\"}}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Sat, 20 Aug 2016 13:56:25 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "885",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "no-cache",
+        "ETag": "W/\"375-vkyMKFX/MWslbtlTW10FHg\"",
+        "Vary": "Accept-Encoding",
+        "Strict-Transport-Security": "max-age=31536000;"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
