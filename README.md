@@ -6,6 +6,7 @@
 - [x] Return multiple random users
 - [x] Choose gender, nationality and other options
 - [x] Format results
+- [ ] Seed
 
 ## Installation
 
