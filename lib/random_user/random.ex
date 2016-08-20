@@ -1,17 +1,27 @@
 defmodule RandomUser.Random do
   alias RandomUser.API
 
+  @moduledoc """
+     Get random users with options.
+
+  ## Examples
+
+      RandomUser.Random.one(%{ gender: "female" })
+
+  """
+
   @doc """
   Returns one random user.
 
   ## Examples
 
-      RandomUser.Random.one
+      RandomUser.Random.one # Returns one random user
+      RandomUser.Random.one(%{ gender: "female" }) # Returns a random female user
   """
 
   def one(options \\ %{}) do
     query = URI.encode_query(options)
-    url = RandomUser.config(:one_random_user_api_url) |> to_string
+    url = :one_random_user_api_url |> RandomUser.config |> to_string
     url = if map_size(options) > 0, do: "#{url}?#{query}", else: url
     API.get(url)
   end

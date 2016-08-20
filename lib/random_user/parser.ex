@@ -1,4 +1,13 @@
 defmodule RandomUser.Parser do
+  @moduledoc """
+     Parser helps you format the JSON output and easily access the data.
+
+  ## Examples
+
+      res = RandomUser.Random.one |> RandomUser.Parser.results |> RandomUser.Parser.parse
+
+  """
+
   @doc """
   This will convert map keys to atoms and allow you to access keys with dot notation
 
