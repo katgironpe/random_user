@@ -13,9 +13,17 @@ defmodule RandomUser.Parser do
 
   ## Examples
 
+      # For one random user
       res = RandomUser.Random.one |> RandomUser.Parser.results |> RandomUser.Parser.parse
       res.gender
       res.picture["large"]
+
+      # For multiple random users
+      users = RandomUser.Random.multiple(2) |> RandomUser.Parser.results
+        Enum.map(users, fn u ->
+          user = u |> RandomUser.Parser.parse
+          large_pic = user.picture["large"]
+      end)
   """
 
   def parse(results) do

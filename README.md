@@ -16,7 +16,7 @@ This package is [available in Hex](https://hex.pm/docs/publish) and can be insta
 
     ```elixir
     def deps do
-      [{:random_user, "~> 0.2.1"}]
+      [{:random_user, "~> 0.2.2"}]
     end
     ```
 
@@ -58,8 +58,21 @@ RandomUser.Random.multiple(50, %{ gender: "female", nat: "au,nz" })
 
 ### Get results easily with Parser
 
+For one random user:
+
 ```elixir
 res = RandomUser.Random.one |> RandomUser.Parser.results |> RandomUser.Parser.parse
 res.gender
 res.picture["large"]
+```
+
+
+For multiple random users:
+
+```elixir
+users = RandomUser.Random.multiple(2) |> RandomUser.Parser.results
+Enum.map(users, fn u ->
+  user = u |> RandomUser.Parser.parse
+  large_pic = user.picture["large"]
+end)
 ```
