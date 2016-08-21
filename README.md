@@ -28,3 +28,14 @@ This package is [available in Hex](https://hex.pm/docs/publish) and can be insta
     end
     ```
 
+## Usage
+
+### One Random User
+
+```elixir
+# Returns one random user
+RandomUser.Random.one
+
+# Returns a random female user
+RandomUser.Random.one(%{ gender: "female" })
+```
