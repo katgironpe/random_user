@@ -28,11 +28,17 @@ defmodule RandomUser.Parser do
   ## Examples
 
       RandomUser.Random.one |> RandomUser.Parser.results
+      RandomUser.Random.multiple(2) |> RandomUser.Parser.results
   """
 
   def results(response) do
     if response && response.body do
-      response.body["results"] |> List.first
+      results = response.body["results"]
+      if length(results) == 1 do
+        results |> List.first
+      else
+        results
+      end
     end
   end
 end
