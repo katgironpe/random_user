@@ -55,3 +55,11 @@ RandomUser.Random.multiple(50, %{ gender: "female" })
 # Returns 50 female users from AU and NZ
 RandomUser.Random.multiple(50, %{ gender: "female", nat: "au,nz" })
 ```
+
+### Get results easily with Parser
+
+```elixir
+res = RandomUser.Random.one |> RandomUser.Parser.results |> RandomUser.Parser.parse
+res.gender
+res.picture["large"]
+```
