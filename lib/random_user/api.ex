@@ -5,6 +5,10 @@ defmodule RandomUser.API do
      API is an HTTPotion wrapper.
   """
 
+  def base_url do
+    :api_url |> RandomUser.config || "http://api.randomuser.me" |> to_char_list
+  end
+
   def process_url(url) do
     url
   end
