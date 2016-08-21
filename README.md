@@ -1,4 +1,4 @@
-# RandomUser [![Build Status](https://travis-ci.org/katgironpe/random_user.svg?branch=master)](https://travis-ci.org/katgironpe/random_user) [![Coverage Status](https://coveralls.io/repos/github/katgironpe/random_user/badge.svg?branch=master)](https://coveralls.io/github/katgironpe/random_user?branch=master)
+# RandomUser [![Build Status](https://travis-ci.org/katgironpe/random_user.svg?branch=master)](https://travis-ci.org/katgironpe/random_user) [![Coverage Status](https://coveralls.io/repos/github/katgironpe/random_user/badge.svg?branch=master)](https://coveralls.io/github/katgironpe/random_user?branch=master) [![Deps Status](https://beta.hexfaktor.org/badge/all/github/katgironpe/random_user.svg)](https://beta.hexfaktor.org/github/katgironpe/random_user)
 
 ## Features
 
