@@ -6,22 +6,21 @@
       "method": "get",
       "options": [],
       "request_body": "",
-      "url": "https://randomuser.me/api/"
+      "url": "http://api.randomuser.me"
     },
     "response": {
-      "body": "{\"results\":[{\"gender\":\"female\",\"name\":{\"title\":\"miss\",\"first\":\"vera\",\"last\":\"voÃ\"},\"location\":{\"street\":\"3350 tannenweg\",\"city\":\"main-spessart\",\"state\":\"brandenburg\",\"postcode\":20797},\"email\":\"vera.voÃ@example.com\",\"login\":{\"username\":\"brownfish572\",\"password\":\"zxczxc\",\"salt\":\"MYDA4dnd\",\"md5\":\"ae0f5defb1fac842b282c59f17f99a4e\",\"sha1\":\"3f820dbdd7271f58f19d5979121851f9341c7590\",\"sha256\":\"95fcf71ea9058b46ef76d16881f4b4783ec8a757c739bda0110e8da19f4c8e83\"},\"dob\":\"1955-11-05 18:29:07\",\"registered\":\"2004-07-26 18:14:42\",\"phone\":\"0681-5674632\",\"cell\":\"0175-9372149\",\"id\":{\"name\":\"\",\"value\":null},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/women/88.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/women/88.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/women/88.jpg\"},\"nat\":\"DE\"}],\"info\":{\"seed\":\"55c4099360d64e97\",\"results\":1,\"page\":1,\"version\":\"1.1\"}}",
+      "body": "{\"results\":[{\"gender\":\"male\",\"name\":{\"title\":\"mr\",\"first\":\"marcus\",\"last\":\"wilson\"},\"location\":{\"street\":\"9898 new brighton road\",\"city\":\"masterton\",\"state\":\"taranaki\",\"postcode\":20779},\"email\":\"marcus.wilson@example.com\",\"login\":{\"username\":\"crazyleopard508\",\"password\":\"ding\",\"salt\":\"NFexuazo\",\"md5\":\"fcd371644e80578e01c7b47c9ae7e5cf\",\"sha1\":\"4e9a1d35ffa454cc34cd20304a5f7f3876edc51f\",\"sha256\":\"f993956d0d2a42dbbd0b230ff8d641446bd3c68c1bdf9075ca904bf268ec83e3\"},\"dob\":\"1978-05-17 19:01:37\",\"registered\":\"2014-04-01 19:11:40\",\"phone\":\"(956)-520-0858\",\"cell\":\"(923)-863-8122\",\"id\":{\"name\":\"\",\"value\":null},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/men/77.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/men/77.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/men/77.jpg\"},\"nat\":\"NZ\"}],\"info\":{\"seed\":\"9ee9e3d806e2e313\",\"results\":1,\"page\":1,\"version\":\"1.1\"}}",
       "headers": {
         "Server": "nginx",
-        "Date": "Sat, 20 Aug 2016 13:56:25 GMT",
+        "Date": "Sun, 21 Aug 2016 07:06:02 GMT",
         "Content-Type": "application/json; charset=utf-8",
-        "Content-Length": "885",
+        "Content-Length": "889",
         "Connection": "keep-alive",
         "X-Powered-By": "Express",
         "Access-Control-Allow-Origin": "*",
         "Cache-Control": "no-cache",
-        "ETag": "W/\"375-vkyMKFX/MWslbtlTW10FHg\"",
-        "Vary": "Accept-Encoding",
-        "Strict-Transport-Security": "max-age=31536000;"
+        "ETag": "W/\"379-vrrfUfudQZx1lndo8EFdog\"",
+        "Vary": "Accept-Encoding"
       },
       "status_code": 200,
       "type": "ok"

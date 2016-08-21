@@ -6,22 +6,21 @@
       "method": "get",
       "options": [],
       "request_body": "",
-      "url": "https://randomuser.me/api/?gender=female"
+      "url": "http://api.randomuser.me?gender=female"
     },
     "response": {
-      "body": "{\"results\":[{\"gender\":\"female\",\"name\":{\"title\":\"miss\",\"first\":\"isabel\",\"last\":\"castro\"},\"location\":{\"street\":\"6499 calle de arturo soria\",\"city\":\"vitoria\",\"state\":\"comunidad de madrid\",\"postcode\":73690},\"email\":\"isabel.castro@example.com\",\"login\":{\"username\":\"whitemouse910\",\"password\":\"aloha\",\"salt\":\"lG6eRJrn\",\"md5\":\"ef3af8f4ea55d8b17c79eabb484a926d\",\"sha1\":\"94a88050a1073ad75cc2875c702b8d34079c7bf3\",\"sha256\":\"86d8392b7be413f820ff918429142f0b3d6644a7ff3a59e8630e1abdfbda63bf\"},\"dob\":\"1958-07-11 08:01:08\",\"registered\":\"2003-09-16 04:47:38\",\"phone\":\"943-131-605\",\"cell\":\"610-342-763\",\"id\":{\"name\":\"DNI\",\"value\":\"99757145-J\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/women/75.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/women/75.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/women/75.jpg\"},\"nat\":\"ES\"}],\"info\":{\"seed\":\"2ffea33ca647c83a\",\"results\":1,\"page\":1,\"version\":\"1.1\"}}",
+      "body": "{\"results\":[{\"gender\":\"female\",\"name\":{\"title\":\"miss\",\"first\":\"peggy\",\"last\":\"baker\"},\"location\":{\"street\":\"6739 valley view ln\",\"city\":\"irvine\",\"state\":\"north carolina\",\"postcode\":37906},\"email\":\"peggy.baker@example.com\",\"login\":{\"username\":\"smallbird448\",\"password\":\"komodo\",\"salt\":\"96vkEo06\",\"md5\":\"73d5dd90b9038e3ac7a83d14270b4083\",\"sha1\":\"20ac017033ede06d935a96f188e9f7964b77c175\",\"sha256\":\"ba5e8167c2cd70972468d6e261402ce24026f3ca7d9461a32705a24ce9b6d8d3\"},\"dob\":\"1987-02-13 22:37:10\",\"registered\":\"2011-05-14 06:58:10\",\"phone\":\"(312)-772-8843\",\"cell\":\"(529)-769-5905\",\"id\":{\"name\":\"SSN\",\"value\":\"340-89-2829\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/women/20.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/women/20.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/women/20.jpg\"},\"nat\":\"US\"}],\"info\":{\"seed\":\"c850bcfac3c5ff95\",\"results\":1,\"page\":1,\"version\":\"1.1\"}}",
       "headers": {
         "Server": "nginx",
-        "Date": "Sat, 20 Aug 2016 16:31:47 GMT",
+        "Date": "Sun, 21 Aug 2016 07:06:01 GMT",
         "Content-Type": "application/json; charset=utf-8",
-        "Content-Length": "916",
+        "Content-Length": "906",
         "Connection": "keep-alive",
         "X-Powered-By": "Express",
         "Access-Control-Allow-Origin": "*",
         "Cache-Control": "no-cache",
-        "ETag": "W/\"394-ZZvIHMyJdw6R3B7xQjgezA\"",
-        "Vary": "Accept-Encoding",
-        "Strict-Transport-Security": "max-age=31536000;"
+        "ETag": "W/\"38a-mX+yUPTOWr+sjUKjq+R/ng\"",
+        "Vary": "Accept-Encoding"
       },
       "status_code": 200,
       "type": "ok"

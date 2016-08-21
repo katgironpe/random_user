@@ -16,7 +16,7 @@ This package is [available in Hex](https://hex.pm/docs/publish) and can be insta
 
     ```elixir
     def deps do
-      [{:random_user, "~> 0.3.0"}]
+      [{:random_user, "~> 0.3.1"}]
     end
     ```
 
@@ -27,6 +27,12 @@ This package is [available in Hex](https://hex.pm/docs/publish) and can be insta
       [applications: [:random_user]]
     end
     ```
+
+  3. Configure `random_user` for your app:
+
+     ```elixir
+     config :random_user, api_url: 'http://api.randomuser.me'
+     ```
 
 ## Usage
 
