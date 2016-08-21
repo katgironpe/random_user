@@ -38,4 +38,7 @@ RandomUser.Random.one
 
 # Returns a random female user
 RandomUser.Random.one(%{ gender: "female" })
+
+# Returns a random British female user
+RandomUser.Random.one(%{ gender: "female", nat: "gb" })
 ```
