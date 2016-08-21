@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "http://api.randomuser.me/?results=2&gender=female&nat=gb"
+    },
+    "response": {
+      "body": "{\"results\":[{\"gender\":\"female\",\"name\":{\"title\":\"mrs\",\"first\":\"anna\",\"last\":\"harrison\"},\"location\":{\"street\":\"8240 queens road\",\"city\":\"swansea\",\"state\":\"essex\",\"postcode\":\"I3D 3XS\"},\"email\":\"anna.harrison@example.com\",\"login\":{\"username\":\"beautifulmouse175\",\"password\":\"bear1\",\"salt\":\"CPBMrVSc\",\"md5\":\"0e262a609349b99240b439e86e5f4db9\",\"sha1\":\"c436bed5c6ef0b733d77b06aa7861575d3d60cd0\",\"sha256\":\"c030d02f82e5b4224b486c33dc4b67b04ff0e69b78426399c9dfb56dc1704d31\"},\"dob\":\"1995-06-26 22:31:37\",\"registered\":\"2005-08-30 20:39:57\",\"phone\":\"017684 36099\",\"cell\":\"0727-161-473\",\"id\":{\"name\":\"NINO\",\"value\":\"TY 49 52 44 M\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/women/3.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/women/3.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/women/3.jpg\"},\"nat\":\"GB\"},{\"gender\":\"female\",\"name\":{\"title\":\"ms\",\"first\":\"maddison\",\"last\":\"thompson\"},\"location\":{\"street\":\"5258 windsor road\",\"city\":\"exeter\",\"state\":\"gwynedd county\",\"postcode\":\"Z4 8SE\"},\"email\":\"maddison.thompson@example.com\",\"login\":{\"username\":\"lazytiger183\",\"password\":\"link\",\"salt\":\"MReIt9XS\",\"md5\":\"70ff8d1ca36e911bdb301d09ba4421ea\",\"sha1\":\"2b6408d6accee7f8779257f00a220780ea5f9b91\",\"sha256\":\"39308f85e8f92a16473a5de809b7b8fc7bcf8ceb531c83ad1f022baa1a145789\"},\"dob\":\"1949-02-01 07:28:03\",\"registered\":\"2007-09-04 23:55:25\",\"phone\":\"017687 95822\",\"cell\":\"0790-767-522\",\"id\":{\"name\":\"NINO\",\"value\":\"WX 24 26 41 C\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/women/43.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/women/43.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/women/43.jpg\"},\"nat\":\"GB\"}],\"info\":{\"seed\":\"c884dcae29403191\",\"results\":2,\"page\":1,\"version\":\"1.1\"}}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Sun, 21 Aug 2016 04:35:15 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "1731",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "no-cache",
+        "ETag": "W/\"6c3-bLxNlpXRZi2NYOpcg5O8ZA\"",
+        "Vary": "Accept-Encoding"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

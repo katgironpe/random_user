@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://randomuser.me/api/?gender=female&nat=gb"
+    },
+    "response": {
+      "body": "{\"results\":[{\"gender\":\"female\",\"name\":{\"title\":\"mrs\",\"first\":\"olivia\",\"last\":\"watkins\"},\"location\":{\"street\":\"2560 manchester road\",\"city\":\"inverness\",\"state\":\"dorset\",\"postcode\":\"GF4 2FX\"},\"email\":\"olivia.watkins@example.com\",\"login\":{\"username\":\"blackbird147\",\"password\":\"password9\",\"salt\":\"VZBVOp5r\",\"md5\":\"446a684ed1228ea54a58e38730e62a31\",\"sha1\":\"98ba174b6ed85acf013733559b5f853e5bc35cbd\",\"sha256\":\"f1dda6d92f4fc11264eb420d34363cef8f9f3f5e06cdb8d26e97c45f2687f6c2\"},\"dob\":\"1995-02-23 15:04:23\",\"registered\":\"2011-09-20 02:26:48\",\"phone\":\"015395 64674\",\"cell\":\"0732-952-424\",\"id\":{\"name\":\"NINO\",\"value\":\"BN 30 74 40 Z\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/women/90.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/women/90.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/women/90.jpg\"},\"nat\":\"GB\"}],\"info\":{\"seed\":\"4813a506841d73ab\",\"results\":1,\"page\":1,\"version\":\"1.1\"}}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Sun, 21 Aug 2016 04:33:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "913",
+        "Connection": "keep-alive",
+        "X-Powered-By": "Express",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "no-cache",
+        "ETag": "W/\"391-40RGBSSP3c9QCia3xVOddQ\"",
+        "Vary": "Accept-Encoding",
+        "Strict-Transport-Security": "max-age=31536000;"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

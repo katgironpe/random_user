@@ -16,6 +16,15 @@ defmodule RandomUser.RandomTest do
         assert first_result["gender"] == "female"
       end
     end
+
+    test "get one random British female user" do
+      use_cassette "gb_female_one_random_user" do
+        res = RandomUser.Random.one(%{gender: "female", nat: "gb"}).body
+        first_result = res["results"] |> List.first
+        assert first_result["gender"] == "female"
+        assert first_result["nat"] == "GB"
+      end
+    end
   end
 
   describe "RandomUser.RandomTest.multiple" do
@@ -34,6 +43,20 @@ defmodule RandomUser.RandomTest do
         assert req.body["info"]["results"] == 2
         assert first_result["gender"] == "female"
         assert last_result["gender"] == "female"
+      end
+    end
+
+    test "get multiple random British female users" do
+      use_cassette "gb_female_multiple_random_users" do
+        req = RandomUser.Random.multiple(2, %{gender: "female", nat: "gb"})
+        res = req.body
+        first_result = res["results"] |> List.first
+        last_result = res["results"] |> List.last
+        assert req.body["info"]["results"] == 2
+        assert first_result["gender"] == "female"
+        assert last_result["gender"] == "female"
+        assert first_result["nat"] == "GB"
+        assert last_result["nat"] == "GB"
       end
     end
   end
