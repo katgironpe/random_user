@@ -15,8 +15,11 @@ defmodule RandomUser.Random do
 
   ## Examples
 
-      RandomUser.Random.one # Returns one random user
-      RandomUser.Random.one(%{ gender: "female" }) # Returns a random female user
+      # Returns one random user
+      RandomUser.Random.one
+
+      # Returns a random female user
+      RandomUser.Random.one(%{ gender: "female" })
   """
 
   def one(options \\ %{}) do
