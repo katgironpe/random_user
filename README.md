@@ -4,13 +4,13 @@
 
 - [x] Return one random user
 - [x] Return multiple random users
+- [x] Seeds (always returns Becky Sims)
 - [x] Choose gender, nationality and other options
 - [x] Format results
-- [ ] Seed
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+This package is [available in Hex](https://hex.pm/docs/publish) and can be installed as:
 
   1. Add `random_user` to your list of dependencies in `mix.exs`:
 

@@ -25,6 +25,15 @@ defmodule RandomUser.RandomTest do
         assert first_result["nat"] == "GB"
       end
     end
+
+    test "get seeds which always returns Becky Sims" do
+      use_cassette "seeds_one_random_user" do
+        res = RandomUser.Random.one(%{seed: "foobar"}).body
+        first_result = res["results"] |> List.first
+        assert first_result["gender"] == "female"
+        assert first_result["name"]["first"] == "becky"
+      end
+    end
   end
 
   describe "RandomUser.RandomTest.multiple" do
