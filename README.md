@@ -16,7 +16,7 @@ This package is [available in Hex](https://hex.pm/docs/publish) and can be insta
 
     ```elixir
     def deps do
-      [{:random_user, "~> 0.1.2"}]
+      [{:random_user, "~> 0.2.0"}]
     end
     ```
 
@@ -41,4 +41,17 @@ RandomUser.Random.one(%{ gender: "female" })
 
 # Returns a random British female user
 RandomUser.Random.one(%{ gender: "female", nat: "gb" })
+```
+
+### Multiple Random Users
+
+```elixir
+# Returns 50 users
+RandomUser.Random.multiple(50)
+
+# Returns 50 female users
+RandomUser.Random.multiple(50, %{ gender: "female" })
+
+# Returns 50 female users from AU and NZ
+RandomUser.Random.multiple(50, %{ gender: "female", nat: "au,nz" })
 ```
