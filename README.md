@@ -1,4 +1,4 @@
-# RandomUser [![Build Status](https://travis-ci.org/katgironpe/random_user.svg?branch=master)](https://travis-ci.org/katgironpe/random_user)
+# RandomUser [![Build Status](https://travis-ci.org/katgironpe/random_user.svg?branch=master)](https://travis-ci.org/katgironpe/random_user) [![Coverage Status](https://coveralls.io/repos/github/katgironpe/random_user/badge.svg?branch=master)](https://coveralls.io/github/katgironpe/random_user?branch=master)
 
 ## Features
 
