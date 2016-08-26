@@ -2,7 +2,7 @@ defmodule RandomUser.ParserTest do
   use ExUnit.Case, async: false
   use ExVCR.Mock
 
-  describe "RandomUser.Parser.parse/1" do
+  describe "parse" do
     test "converts string keys to atoms" do
       results = %{ "one" => "one", "two" => "two" }
 
@@ -10,7 +10,7 @@ defmodule RandomUser.ParserTest do
     end
   end
 
-  describe "RandomUser.Parser.results/1" do
+  describe "results" do
     test "retrieves results for one user" do
       use_cassette "one_random_user" do
         user = RandomUser.Random.one |> RandomUser.Parser.results
