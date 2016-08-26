@@ -10,7 +10,7 @@
 
 ## Installation
 
-This package is [available in Hex](https://hex.pm/docs/publish) and can be installed as:
+This package is [available in Hex](https://hex.pm/docs/publish) and can be installed as follows:
 
   1. Add `random_user` to your list of dependencies in `mix.exs`:
 
