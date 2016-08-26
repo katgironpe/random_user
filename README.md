@@ -16,7 +16,7 @@ This package is [available in Hex](https://hex.pm/docs/publish) and can be insta
 
     ```elixir
     def deps do
-      [{:random_user, "~> 0.3.2"}]
+      [{:random_user, "~> 0.3.3"}]
     end
     ```
 
