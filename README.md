@@ -73,7 +73,7 @@ For multiple random users:
 ```elixir
 users = RandomUser.Random.multiple(2) |> RandomUser.Parser.results
 Enum.map(users, fn u ->
-  user = u |> RandomUser.Parser.parse
+  user = RandomUser.Parser.parse(u)
   large_pic = user.picture["large"]
 end)
 ```

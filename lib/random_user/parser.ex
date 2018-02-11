@@ -43,7 +43,7 @@ defmodule RandomUser.Parser do
     if response && response.body do
       results = response.body["results"]
       if length(results) == 1 do
-        results |> List.first
+        List.first(results)
       else
         results
       end

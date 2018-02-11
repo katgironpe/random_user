@@ -3,7 +3,7 @@ defmodule RandomUser.Mixfile do
 
   def project do
     [app: :random_user,
-     version: "0.3.3",
+     version: "0.3.4",
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -35,14 +35,14 @@ defmodule RandomUser.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpotion, "~> 3.0.0"},
+      {:httpotion, "~> 3.1.0"},
       {:poison, ">= 2.2.0"},
-      {:credo, "~> 0.4", only: [:dev, :test]},
-      {:ex_doc, ">= 0.0.0", only: :dev},
-      {:excoveralls, "~> 0.4", only: :test},
-      {:exvcr, "~> 0.6", only: :test},
+      {:credo, "~> 0.8", only: [:dev, :test]},
+      {:ex_doc, ">= 0.18.0", only: :dev},
+      {:excoveralls, "~> 0.8.1", only: :test},
+      {:exvcr, "~> 0.10", only: :test},
       {:inch_ex, "~> 0.5", only: :docs},
-      {:meck, "~> 0.8.2", only: [:dev, :test]}
+      {:meck, "~> 0.8.9", only: [:dev, :test]}
     ]
   end
 

@@ -14,6 +14,6 @@ defmodule RandomUser.API do
   end
 
   def process_response_body(body) do
-    body |> Poison.decode!
+    Poison.decode!(body)
   end
 end
